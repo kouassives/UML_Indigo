@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:CollaborationDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="diagrammesSequenceDiagram2" foregroundRGB="255,255,255" description="" id="{UMLID=_-XjYgOQHEeezZ9fYQRD1kQ}" metadata="uml2-1.0" scrolledY="114" tag="10" key="323030373036323920554D4C5F496E6469676F">
+  <children xsi:type="editmodel:CollaborationActorEditModel" location="56,266" size="70,100" itemName="utilisateur">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="saisir_login()" autoLocated="true" id="{UMLID=_NBrOIOQJEeezZ9fYQRD1kQ}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="70,23" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="14,50"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="1 " size="29,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.0/@sourceConnections.0" name="FEN connexion" location="194,175" size="92,50" id="{UMLID=_tD0xcOQIEeezZ9fYQRD1kQ}" itemName="FEN connexion">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="vérifier()" autoLocated="true" id="{UMLID=_SFr6keQJEeezZ9fYQRD1kQ}" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="1.1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="92,25" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="0,25"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="1.1 " size="38,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="accéder()" autoLocated="true" id="{UMLID=_YvF3geQJEeezZ9fYQRD1kQ}" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="2">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="46,50" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="34,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="2 " size="29,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.1/@sourceConnections.0" name="Identification" location="369,175" size="80,50" id="{UMLID=_wx9QEeQIEeezZ9fYQRD1kQ}" itemName="Identification">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="compar" autoLocated="true" id="{UMLID=_UONtUOQJEeezZ9fYQRD1kQ}" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.1" label="//@children.2/@sourceConnections.0/@children.2" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="1.1.1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="80,45" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="0,7"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="1.1.1 " size="47,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Paramètres" location="520,249" size="75,50" id="{UMLID=_zf7SMeQIEeezZ9fYQRD1kQ}" itemName="Paramètres"/>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.1/@sourceConnections.1" name="FEN Menu" location="206,294" size="68,50" id="{UMLID=_2_HV4eQIEeezZ9fYQRD1kQ}" itemName="FEN Menu">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="ouvrir()" autoLocated="true" id="{UMLID=_zCf54OQJEeezZ9fYQRD1kQ}" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="3">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="35,50" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="31,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="3 " size="29,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.4/@sourceConnections.0" name="FEN Client" location="210,420" size="68,50" id="{UMLID=_6FOLMeQIEeezZ9fYQRD1kQ}" itemName="FEN Client">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="demanderAjout()" autoLocated="true" id="{UMLID=_LAU9Q-QQEeeXka6Yjvdhvg}" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.0/@children.1" label="//@children.5/@sourceConnections.0/@children.2" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="3.1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="68,25" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="0,25"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="3.1 " size="38,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Clients" location="532,420" size="52,50" id="{UMLID=_G2qA4eQKEeezZ9fYQRD1kQ}" itemName="Clients">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="créer()" autoLocated="true" id="{UMLID=_XjHdgOQSEeeXka6Yjvdhvg}" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.0/@children.1" label="//@children.6/@sourceConnections.0/@children.2" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="&lt;init>" associatedSequenceNumber="3.1.1.1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="0,42" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="69,2"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="3.1.1.1 : &lt;init>()" size="95,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Demandes" location="369,420" size="71,50" id="{UMLID=_3WlL8OQOEeeXka6Yjvdhvg}" itemName="Demandes">
+    <sourceConnections xsi:type="editmodel:CollaborationMessageEditModel" name="ajouterBD()" autoLocated="true" id="{UMLID=_m-Qnw-QQEeeXka6Yjvdhvg}" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.1" label="//@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual" associatedMethod="" associatedSequenceNumber="3.1.1">
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="71,25" attachSource="true"/>
+      <children xsi:type="editmodel:CollaborationEndEditModel" location="0,25"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="3.1.1 " size="47,17" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+  </children>
+  <children xsi:type="editmodel:CollaborationInstanceEditModel" targetConnections="//@children.6/@sourceConnections.0" name="BD Clients" location="374,518" size="69,50" id="{UMLID=_gP6gcuQQEeeXka6Yjvdhvg}" itemName="BD Clients"/>
+  <diagramOptions xsi:type="options:CollaborationDiagramOptions" level="0"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="56,266" rulerUnit="cm">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:CollaborationDiagramEditModel>
